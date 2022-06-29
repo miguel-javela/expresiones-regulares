@@ -7,6 +7,7 @@
 *: cero o muchas
 +: uno o mas
 ?: cero o uno
+\d{minimo,maximo} -> \d{2,2}[\-\.]?\d{2,2}[\-\.]?\d{2,2}: encuentra hasta 6 numero seguidos que pueden ir separados en parejas por - o .
 
 1
 12
@@ -26,7 +27,7 @@ http://instagram.com/p/blablablah
 csv1,csv2,csv3,csv4,csv5
 Rodrigo Jiménez Gutiérrez
 5556581111
-56-58-11-12
+56-58-11-12-12
 302-345-9876
 esto.es.un.mail+gmail@mail.com
 dominio.com
