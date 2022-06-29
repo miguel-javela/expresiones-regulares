@@ -1,4 +1,10 @@
 .: encuentra todo lo que sea un caracter
+\d: encuentra todos los digitos
+\w: encuentra de la a-z minusculas y mayusculas, digitos y guion bajo que es lo que puede hacer parte de una palabra
+\s: encuentra los espacios
+[0-9]: equivalente a \d, es mas estricta y potente
+[a-fA-F0-9_\.]: escapa el punto para hacer referencia al caracter y no a la clase
+
 1
 12
 123
@@ -9,3 +15,22 @@
 13453243
 hola tambien
 palabra
+
+url: https://www.instagram.com/p/BXB4zsUlW5Z/?taken-by=beco.mx_
+url: http://instagram.com/p/blablablah
+url: http://itam.mx/test
+http://instagram.com/p/blablablah
+csv1,csv2,csv3,csv4,csv5
+Rodrigo Jiménez Gutiérrez
+5556581111
+56-58-11-12
+302-345-9876
+esto.es.un.mail+gmail@mail.com
+dominio.com
+[LOG ENTRY] [ERROR] The system is unstable
+[LOG ENTRY] [WARN] The system may be down
+[LOG ENTRY] [LOG] Everything is OK
+[LOG ENTRY] [LOG] [user:@beco] Logged in
+[LOG ENTRY] [LOG] [user:@beco] Clicked here
+[LOG ENTRY] [LOG] [user:@beco] Rated the app
+[LOG ENTRY] [LOG] [user:@beco] Logged out
