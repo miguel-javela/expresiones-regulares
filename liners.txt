@@ -1,0 +1,11 @@
+.: encuentra todo lo que sea un caracter
+1
+12
+123
+1234
+12345
+12345678910
+12345678910a
+13453243
+hola tambien
+palabra
