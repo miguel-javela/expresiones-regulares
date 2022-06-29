@@ -4,6 +4,9 @@
 \s: encuentra los espacios
 [0-9]: equivalente a \d, es mas estricta y potente
 [a-fA-F0-9_\.]: escapa el punto para hacer referencia al caracter y no a la clase
+*: cero o muchas
++: uno o mas
+?: cero o uno
 
 1
 12
