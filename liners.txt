@@ -8,6 +8,10 @@
 +: uno o mas
 ?: cero o uno
 \d{minimo,maximo} -> \d{2,2}[\-\.]?\d{2,2}[\-\.]?\d{2,2}: encuentra hasta 6 numero seguidos que pueden ir separados en parejas por - o .
+\D: niega \d
+\W: niega \W
+\S: niega \s que son los espacios
+^: para negar una clase, ejemplo: [^0-5a-c]
 
 1
 12
@@ -41,7 +45,7 @@ dominio.com
 
 
 .+?,: el signo de interrogacion delimita los matches al mas pequeño posible y haz tantos como puedas
-.+?[,\n]{1,1} : se agrega la clase con el salto de linea para que incluya el ultimo elemento de cada linea
+.+?[,\n ]{1,1} : se agrega la clase con el salto de linea para que incluya el ultimo elemento de cada linea
 
 csv1,csv2,csv3,csv4
 1234,3434,4343,43434
