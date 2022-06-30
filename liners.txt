@@ -38,3 +38,11 @@ dominio.com
 [LOG ENTRY] [LOG] [user:@beco] Clicked here
 [LOG ENTRY] [LOG] [user:@beco] Rated the app
 [LOG ENTRY] [LOG] [user:@beco] Logged out
+
+
+.+?,: el signo de interrogacion delimita los matches al mas pequeño posible y haz tantos como puedas
+.+?[,\n]{1,1} : se agrega la clase con el salto de linea para que incluya el ultimo elemento de cada linea
+
+csv1,csv2,csv3,csv4
+1234,3434,4343,43434
+34343,434,4343,4343
