@@ -25,10 +25,15 @@
 hola tambien
 palabra
 
+URLs
+https?:\/\/[\w\-\.]+\.\w{2,5}\/?\S*
+
 url: https://www.instagram.com/p/BXB4zsUlW5Z/?taken-by=beco.mx_
 url: http://instagram.com/p/blablablah
 url: http://itam.mx/test
 http://instagram.com/p/blablablah
+
+
 csv1,csv2,csv3,csv4,csv5
 Rodrigo Jiménez Gutiérrez
 
