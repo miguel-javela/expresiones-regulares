@@ -33,6 +33,7 @@ Rodrigo Jiménez Gutiérrez
 5556581111
 56-58-11-12-12
 302-345-9876
+76y87r98: solucion (\d{2,2}[^a-zA-Z0-9]?){5}
 esto.es.un.mail+gmail@mail.com
 dominio.com
 [LOG ENTRY] [ERROR] The system is unstable
