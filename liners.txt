@@ -26,7 +26,7 @@ hola tambien
 palabra
 
 URLs
-https?:\/\/[\w\-\.]+\.\w{2,5}\/?\S*
+expresion: https?:\/\/[\w\-\.]+\.\w{2,5}\/?\S*
 
 url: https://www.instagram.com/p/BXB4zsUlW5Z/?taken-by=beco.mx_
 url: http://instagram.com/p/blablablah
@@ -39,6 +39,8 @@ Rodrigo Jiménez Gutiérrez
 
 telefonos
 
+expresion: ^\+?\d{2,3}[^\da-z]?\d{2,3}[^\da-z]?\d{2,3}[#pe]?\d*$
+
 555658
 56-58-11
 78.56.56
@@ -49,8 +51,6 @@ telefonos
 789456p123
 123456e454
 +521565811
-
-^\+?\d{2,3}[^\da-z]?\d{2,3}[^\da-z]?\d{2,3}[#pe]?\d*$
 
 esto.es.un.mail+gmail@mail.com
 dominio.com
@@ -69,3 +69,18 @@ dominio.com
 csv1,csv2,csv3,csv4
 1234,3434,4343,43434
 34343,434,4343,4343
+
+
+MAILS
+
+expresion: [\w\._]{5,30}\+?[\w]{0,10}@[\w\.\-]{3,}\.\w{2,5}
+usuario: [\w\._]{5,30}\+?[\w]{0,10}@
+dominio: @[\w\.\-]{3,}\.\w{2,5}
+
+esto.es_un.mail@mail.com
+esto.es_un.mail+complejo@mail.com
+@dominio.com
+rodrigo.jimenez@yahoo.com.mx
+ruben@starbucks.com
+esto_no$es_email@dominio.com
+no_se_de_internet3@hotmail.com
