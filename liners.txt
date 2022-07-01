@@ -31,10 +31,22 @@ url: http://itam.mx/test
 http://instagram.com/p/blablablah
 csv1,csv2,csv3,csv4,csv5
 Rodrigo Jiménez Gutiérrez
-5556581111
-56-58-11-12-12
+
+telefonos
+
+555658
+56-58-11
+78.56.56
+45 78 78
 302-345-9876
+65-09-87#123
 76y87r98: solucion (\d{2,2}[^a-zA-Z0-9]?){5}
+789456p123
+123456e454
++521565811
+
+^\+?\d{2,3}[^\da-z]?\d{2,3}[^\da-z]?\d{2,3}[#pe]?\d*$
+
 esto.es.un.mail+gmail@mail.com
 dominio.com
 [LOG ENTRY] [ERROR] The system is unstable
