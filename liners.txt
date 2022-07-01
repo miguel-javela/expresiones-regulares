@@ -12,6 +12,7 @@
 \W: niega \W
 \S: niega \s que son los espacios
 ^: para negar una clase, ejemplo: [^0-5a-c]
+^\d{3,7}$: busca por linea, la expresion regular que se encuentre entre ^ y $ y asi buscar lineas completas que hagan match y sino se descartan
 
 1
 12
